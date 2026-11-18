@@ -1,0 +1,7 @@
+*.zip
+*.pt
+*.tmp
+data/
+cnn_assignment_outputs/*.pt
+.ipynb_checkpoints/
+__pycache__/
