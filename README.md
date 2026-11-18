@@ -32,10 +32,10 @@ To overcome domain shift, the US-trained backbones are adapted to the 48-class P
 
 | Model | Adaptation Method | Top-1 Acc (%) | Top-5 Acc (%) | Macro-F1 (%) |
 | :--- | :--- | :---: | :---: | :---: |
-| **ZFNet** | Baseline (from scratch)[cite: 2, 6] | 83.12 | 94.55 | 76.86 |
+| **ZFNet** | Baseline (from scratch) | 83.12 | 94.55 | 76.86 |
 | **ZFNet** | US Linear Probe | 64.42 | 89.87 | 54.92 |
 | **ZFNet** | US Fine-Tune | **84.42** | **95.71** | **77.03** |
-| **CvT-13** | Baseline (ImageNet only)[cite: 2, 6] | **92.60** | 98.05 | **87.37** |
+| **CvT-13** | Baseline (ImageNet only) | **92.60** | 98.05 | **87.37** |
 | **CvT-13** | US Linear Probe | 88.05 | 97.40 | 83.85 |
 | **CvT-13** | US Fine-Tune | 91.56 | **98.44** | 86.61 |
 
