@@ -46,4 +46,3 @@ To overcome domain shift, the US-trained backbones are adapted to the 48-class P
 ├── zfnet_cvt_cars_Adaptive methodology 1 & 2.ipynb   # Main pipeline: US training & Pakistani adaptation (baseline, linear probe, fine-tune)
 ├── S1_train_US_test_Pak.ipynb                        # Zero-shot cross-domain evaluation at shared car-make level
 ├── requirements.txt                                  # Python dependencies
-└── assets/                                           # Saved evaluation plots and CSV metrics
